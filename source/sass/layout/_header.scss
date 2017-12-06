@@ -1,0 +1,82 @@
+header {
+	padding-top: 20px;
+	height: 625px;
+	background: $purple_bg_color url('../images/backgrounds/header_bg.png') no-repeat;
+	background-size: cover;
+
+	color: $white_color;
+	text-align: center;
+
+	.logo {
+
+		span {
+			vertical-align: middle;
+			margin-left: 5px;
+
+			font: 30px/40px 'quicksandbold';			
+		}
+	} // end of .logo
+
+	nav {
+		margin-bottom: 105px;
+
+		ul {
+			float: left;
+			margin: 0;
+		}
+
+		ul li {
+			float: left;  //set menu items horizontal
+			margin-right: 40px;
+		}
+
+		ul a {
+			display: block;
+			font: 14px/40px 'quicksandregular';
+			text-transform: uppercase;
+
+			color: $white_color;
+
+			&:hover {
+				color: $white_color;
+				text-decoration: underline;
+			}
+		}
+
+		.buy_btn {
+			width: 160px;
+			height: 40px;
+			border: 3px solid $white_color;
+			border-radius: 20px;
+
+			background: none;
+
+			font: 16px/16px 'quicksandbold';
+			text-transform: uppercase;
+
+			&:hover {
+				background-color: $orange_bg_color;
+			}			
+		}
+	} // end of nav	
+
+	h1 {
+		font: 60px/60px 'quicksandbold'; 
+		margin-bottom: 15px;
+	}
+
+	p {
+		font: 16px/16px 'quicksandbold'; 
+	}
+
+	.img_wrapper {
+		width: 893px;
+		margin: auto;
+	}
+
+	.fruit_img	{
+		position: absolute;
+		display: inherit;
+		margin-top: -215px;
+	}
+}

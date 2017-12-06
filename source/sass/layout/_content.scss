@@ -18,6 +18,12 @@
 
 .nutrition {
 	background-color: $orange_bg_color;	
+	padding-bottom: 0;
+
+	.heading {
+		padding-bottom: 0;
+		color: $white_color;
+	}
 
 } // end of .nutrition
 

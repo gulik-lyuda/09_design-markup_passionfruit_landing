@@ -5909,4 +5909,8 @@ header {
     color: #2a110b; }
 
 .nutrition {
-  background-color: #fda100; }
+  background-color: #fda100;
+  padding-bottom: 0; }
+  .nutrition .heading {
+    padding-bottom: 0;
+    color: #fff; }

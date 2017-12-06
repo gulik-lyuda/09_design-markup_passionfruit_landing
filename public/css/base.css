@@ -5811,6 +5811,29 @@ button.close {
   font-weight: normal;
   font-style: normal; }
 
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  background-color: #fff; }
+
+.container {
+  width: 1110px;
+  margin: 0 auto; }
+
+.section {
+  padding: 80px 0;
+  text-align: center; }
+  .section .heading {
+    padding-bottom: 50px;
+    color: #2a110b; }
+    .section .heading .title {
+      margin-bottom: 20px;
+      font: 50px/50px 'quicksandregular'; }
+    .section .heading .description {
+      font: 18px/18px 'quicksandregular'; }
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -5874,3 +5897,16 @@ header {
     position: absolute;
     display: inherit;
     margin-top: -215px; }
+
+.how_to_use {
+  padding-top: 170px; }
+  .how_to_use .use_item img {
+    display: inline-block;
+    height: 290px;
+    margin-bottom: 20px; }
+  .how_to_use .use_item p {
+    font: 18px/18px 'quicksandregular';
+    color: #2a110b; }
+
+.nutrition {
+  background-color: #fda100; }

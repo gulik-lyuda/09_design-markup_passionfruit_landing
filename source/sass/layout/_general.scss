@@ -1,3 +1,36 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: $white-color;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.section {
+	padding: 80px 0;
+	text-align: center;
+
+	.heading {
+		padding-bottom: 50px;
+		color: $dark_font_color;
+
+		.title {
+			margin-bottom: 20px;
+			font: 50px/50px 'quicksandregular';
+		}
+
+		.description {
+			font: 18px/18px 'quicksandregular';
+		}
+	}
+}
+
 // to zero out floats
 .clearfix:before,
 .clearfix:after {

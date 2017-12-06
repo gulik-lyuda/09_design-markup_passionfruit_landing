@@ -1,0 +1,26 @@
+.how_to_use {
+	padding-top: 170px;
+
+	.use_item {		
+
+		img {
+			display: inline-block;
+			height: 290px;
+			margin-bottom: 20px;	
+		}
+
+		p {
+			font: 18px/18px 'quicksandregular';
+			color: $dark_font_color;
+		}
+	}
+} // end of .how_to_use
+
+.nutrition {
+	background-color: $orange_bg_color;	
+
+} // end of .nutrition
+
+.order {
+
+} // end of .order

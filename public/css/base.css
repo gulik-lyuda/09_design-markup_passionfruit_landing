@@ -5848,6 +5848,17 @@ body {
 .right {
   float: right; }
 
+.buy_btn {
+  width: 160px;
+  height: 40px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  background: none;
+  font: 16px/34px 'quicksandbold';
+  text-transform: uppercase; }
+  .buy_btn:hover {
+    background-color: #fda100; }
+
 header {
   padding-top: 20px;
   height: 625px;
@@ -5855,10 +5866,28 @@ header {
   background-size: cover;
   color: #fff;
   text-align: center; }
+  header a {
+    color: #fff; }
+    header a:hover {
+      color: #fff; }
+    header a:visited {
+      color: #fff; }
+  header .logo img {
+    -webkit-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite; }
   header .logo span {
     vertical-align: middle;
     margin-left: 5px;
     font: 30px/40px 'quicksandbold'; }
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
   header nav {
     margin-bottom: 105px; }
     header nav ul {
@@ -5870,21 +5899,9 @@ header {
     header nav ul a {
       display: block;
       font: 14px/40px 'quicksandregular';
-      text-transform: uppercase;
-      color: #fff; }
-      header nav ul a:hover {
-        color: #fff;
-        text-decoration: underline; }
-    header nav .buy_btn {
-      width: 160px;
-      height: 40px;
-      border: 3px solid #fff;
-      border-radius: 20px;
-      background: none;
-      font: 16px/16px 'quicksandbold';
       text-transform: uppercase; }
-      header nav .buy_btn:hover {
-        background-color: #fda100; }
+      header nav ul a:hover {
+        text-decoration: underline; }
   header h1 {
     font: 60px/60px 'quicksandbold';
     margin-bottom: 15px; }
@@ -5977,7 +5994,7 @@ header {
     text-align: right; }
   .nutrition .protein {
     top: 1742px;
-    left: 740px;
+    left: 790px;
     text-align: left; }
   .nutrition .carbohydrates {
     top: 1855px;
@@ -5985,5 +6002,30 @@ header {
     text-align: right; }
   .nutrition .fat {
     top: 1850px;
-    left: 781px;
+    left: 750px;
     text-align: left; }
+
+.order .order_item {
+  height: 425px;
+  border: #fda100 1px solid;
+  border-radius: 20px;
+  padding-top: 30px; }
+  .order .order_item h3 {
+    padding-bottom: 20px;
+    color: #2a110b;
+    font: 24px/24px 'quicksandbold'; }
+  .order .order_item a {
+    color: #fda100; }
+    .order .order_item a:hover {
+      color: #fda100; }
+    .order .order_item a:visited {
+      color: #fda100; }
+  .order .order_item .buy_btn {
+    border-color: #fda100;
+    margin-bottom: 25px; }
+    .order .order_item .buy_btn:hover {
+      color: #fff; }
+  .order .order_item p {
+    padding-bottom: 30px;
+    color: #2a110b;
+    font: 16px/16px 'quicksandregular'; }

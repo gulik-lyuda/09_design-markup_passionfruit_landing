@@ -108,7 +108,7 @@
 
 	.protein {
 		top: 1742px;
-		left: 740px;
+		left: 790px;
 
 		text-align: left;
 	}
@@ -122,7 +122,7 @@
 
 	.fat {
 		top: 1850px;
-		left: 781px;
+		left: 750px;
 
 		text-align: left;
 	}
@@ -130,4 +130,46 @@
 
 .order {
 
+	.order_item {
+		height: 425px;
+		border: $orange_bg_color 1px solid;
+		border-radius: 20px;
+
+		padding-top: 30px;
+
+		h3 {
+			padding-bottom: 20px;
+
+			color: #2a110b;
+			font: 24px/24px 'quicksandbold';
+		}
+
+		a {
+			color: $orange_bg_color;
+
+			&:hover {
+				color: $orange_bg_color;
+			}
+
+			&:visited {
+				color: $orange_bg_color;
+			}
+		}
+
+		.buy_btn {
+			border-color: $orange_bg_color;
+			margin-bottom: 25px;
+
+			&:hover {
+				color: $white_color;
+			}
+		}
+
+		p {
+			padding-bottom: 30px;
+
+			color: #2a110b;
+			font: 16px/16px 'quicksandregular';
+		}
+	} // end of .order_item
 } // end of .order

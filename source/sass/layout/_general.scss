@@ -49,3 +49,21 @@ body {
 .right {
 	float: right;
 }
+
+
+
+.buy_btn {
+	width: 160px;
+	height: 40px;
+	border: 3px solid $white_color;
+	border-radius: 20px;
+
+	background: none;
+
+	font: 16px/34px 'quicksandbold';
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: $orange_bg_color;
+	}			
+}

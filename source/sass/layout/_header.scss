@@ -7,7 +7,25 @@ header {
 	color: $white_color;
 	text-align: center;
 
+	a {
+		color: $white_color;
+
+		&:hover {
+			color: $white_color;
+		}
+
+		&:visited {
+			color: $white_color;
+		}
+	}
+
 	.logo {
+		 	
+		img {
+			-webkit-animation: spin 4s linear infinite;
+    	-moz-animation: spin 4s linear infinite;
+    	animation: spin 4s linear infinite;
+		}
 
 		span {
 			vertical-align: middle;
@@ -16,6 +34,10 @@ header {
 			font: 30px/40px 'quicksandbold';			
 		}
 	} // end of .logo
+
+	@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+	@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 	nav {
 		margin-bottom: 105px;
@@ -35,28 +57,9 @@ header {
 			font: 14px/40px 'quicksandregular';
 			text-transform: uppercase;
 
-			color: $white_color;
-
 			&:hover {
-				color: $white_color;
 				text-decoration: underline;
 			}
-		}
-
-		.buy_btn {
-			width: 160px;
-			height: 40px;
-			border: 3px solid $white_color;
-			border-radius: 20px;
-
-			background: none;
-
-			font: 16px/16px 'quicksandbold';
-			text-transform: uppercase;
-
-			&:hover {
-				background-color: $orange_bg_color;
-			}			
 		}
 	} // end of nav	
 

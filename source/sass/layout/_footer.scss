@@ -1,0 +1,19 @@
+footer {
+	height: 80px;
+
+	color: $dark_font_color;
+	font: 16px/80px 'Tahoma';
+
+	.support_link {
+		
+		text-decoration: underline;
+
+		a {
+			color: $dark_font_color;
+
+			&:hover {
+				font-weight: bold;
+			}
+		}
+	}
+}

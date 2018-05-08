@@ -6005,27 +6005,40 @@ header {
     left: 750px;
     text-align: left; }
 
-.order .order_item {
-  height: 425px;
-  border: #fda100 1px solid;
-  border-radius: 20px;
-  padding-top: 30px; }
-  .order .order_item h3 {
-    padding-bottom: 20px;
-    color: #2a110b;
-    font: 24px/24px 'quicksandbold'; }
-  .order .order_item a {
-    color: #fda100; }
-    .order .order_item a:hover {
+.order {
+  background-color: #fbeecd; }
+  .order .order_item {
+    height: 425px;
+    border: #fda100 1px solid;
+    border-radius: 20px;
+    padding-top: 30px; }
+    .order .order_item h3 {
+      padding-bottom: 20px;
+      color: #2a110b;
+      font: 24px/24px 'quicksandbold'; }
+    .order .order_item a {
       color: #fda100; }
-    .order .order_item a:visited {
-      color: #fda100; }
-  .order .order_item .buy_btn {
-    border-color: #fda100;
-    margin-bottom: 25px; }
-    .order .order_item .buy_btn:hover {
-      color: #fff; }
-  .order .order_item p {
-    padding-bottom: 30px;
-    color: #2a110b;
-    font: 16px/16px 'quicksandregular'; }
+      .order .order_item a:hover {
+        color: #fda100; }
+      .order .order_item a:visited {
+        color: #fda100; }
+    .order .order_item .buy_btn {
+      border-color: #fda100;
+      margin-bottom: 25px; }
+      .order .order_item .buy_btn:hover {
+        color: #fff; }
+    .order .order_item p {
+      padding-bottom: 30px;
+      color: #2a110b;
+      font: 16px/16px 'quicksandregular'; }
+
+footer {
+  height: 80px;
+  color: #2a110b;
+  font: 16px/80px 'Tahoma'; }
+  footer .support_link {
+    text-decoration: underline; }
+    footer .support_link a {
+      color: #2a110b; }
+      footer .support_link a:hover {
+        font-weight: bold; }

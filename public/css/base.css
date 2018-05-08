@@ -5914,3 +5914,76 @@ header {
   .nutrition .heading {
     padding-bottom: 0;
     color: #fff; }
+  .nutrition .structure {
+    margin: 0 auto; }
+  .nutrition .fruits {
+    width: 400px;
+    height: 508px; }
+  .nutrition .endnote {
+    position: absolute; }
+    .nutrition .endnote .text {
+      margin: 0;
+      padding: 0 30px;
+      color: #fff; }
+      .nutrition .endnote .text .percent {
+        font: 50px/45px 'quicksandregular'; }
+      .nutrition .endnote .text .endnote_caption {
+        font: 18px/12px 'quicksandregular'; }
+    .nutrition .endnote .vertical_line {
+      width: 1px;
+      height: 25px;
+      margin: 22px 0;
+      border-left: #fff 1px solid; }
+    .nutrition .endnote .horizontal_line {
+      width: 160px;
+      height: 35px;
+      border-bottom: #fff 1px solid; }
+    .nutrition .endnote .shift_left {
+      margin-left: -15px; }
+    .nutrition .endnote .shift_right {
+      margin-right: -15px; }
+    .nutrition .endnote .pulse {
+      margin-top: 19px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: none;
+      border: #fff 1px solid;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-box-shadow: inset 0 0 20px #fff;
+              box-shadow: inset 0 0 20px #fff;
+      -webkit-animation: animate 3s linear infinite;
+              animation: animate 3s linear infinite; }
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 rgba(255, 109, 74, 0.7);
+            box-shadow: inset 0 0 0 rgba(255, 109, 74, 0.7); }
+  50% {
+    -webkit-box-shadow: inset 0 0 0 rgba(255, 109, 74, 0.5);
+            box-shadow: inset 0 0 0 rgba(255, 109, 74, 0.5); } }
+
+@keyframes animate {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 rgba(255, 109, 74, 0.7);
+            box-shadow: inset 0 0 0 rgba(255, 109, 74, 0.7); }
+  50% {
+    -webkit-box-shadow: inset 0 0 0 rgba(255, 109, 74, 0.5);
+            box-shadow: inset 0 0 0 rgba(255, 109, 74, 0.5); } }
+  .nutrition .water {
+    top: 1725px;
+    left: 265px;
+    text-align: right; }
+  .nutrition .protein {
+    top: 1742px;
+    left: 740px;
+    text-align: left; }
+  .nutrition .carbohydrates {
+    top: 1855px;
+    left: 280px;
+    text-align: right; }
+  .nutrition .fat {
+    top: 1850px;
+    left: 781px;
+    text-align: left; }

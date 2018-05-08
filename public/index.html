@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Passion Fruit</title>
 
-
     <!-- Connect our stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
@@ -23,8 +22,8 @@
                     
                     <nav class="right">
                         <ul>
-                            <li><a href="#">how to use</a></li>
-                            <li><a href="#">nutrition</a></li>
+                            <li><a href="#use_cases">how to use</a></li>
+                            <li><a href="#passionfruit_structure">nutrition</a></li>
                         </ul>
                         <button class="buy_btn">buy now</button>
                     </nav>
@@ -40,7 +39,7 @@
         </header>
 
         <main class="wrapper">
-            <div class="how_to_use section">
+            <div class="how_to_use section" id="use_cases">
                 <div class="container">
                     <div class="row heading">
                         <h2 class="title">How to use</h2>
@@ -63,22 +62,69 @@
                 </div>
             </div> <!-- end of How To Use section -->
 
-            <div class="nutrition section">
+            <div class="nutrition section" id="passionfruit_structure">
                 <div class="container">
                     <div class="row heading">
                         <h2 class="title">Nutrition</h2>
                         <p class="description">Passion fruit is a super healthy food</p>
                     </div>
                     <div class="row">
-                      <img src="images/content/passionfruit_2.png" alt="Passion Fruit Structure">  
+                       <div class="structure">
+                           <div class="endnote water clearfix">
+                                <div class="text left">
+                                    <div class="percent">73%</div>
+                                    <div class="endnote_caption">water</div>
+                                </div>
+
+                                <div class="vertical_line left"></div>
+                                <div class="horizontal_line left"></div>
+
+                                <div class="pulse shift_left right"></div>
+                            </div>
+                            <div class="endnote protein clearfix">
+                                <div class="pulse shift_right left"></div>
+
+                                <div class="horizontal_line left"></div>
+                                <div class="vertical_line left"></div>
+
+                                <div class="text right">
+                                    <div class="percent">2%</div>
+                                    <div class="endnote_caption">protein</div>
+                                </div>                         
+                            </div>
+                            <div class="endnote carbohydrates clearfix">
+                                <div class="text left">
+                                    <div class="percent">22%</div>
+                                    <div class="endnote_caption">carbohydrates</div>
+                                </div>
+
+                                <div class="vertical_line left"></div>
+                                <div class="horizontal_line left"></div>
+
+                                <div class="pulse shift_left right"></div>
+                            </div>
+                            <div class="endnote fat clearfix">
+                                <div class="pulse shift_right left"></div>
+
+                                <div class="horizontal_line left"></div>
+                                <div class="vertical_line left"></div>
+
+                                <div class="text right">
+                                    <div class="percent">0.7%</div>
+                                    <div class="endnote_caption">fat</div>
+                                </div>
+                            </div>                     
+
+                            <img class="fruits" src="images/content/passionfruit_3.png" alt="Passion Fruit Structure">
+                       </div>     
                     </div>
                 </div>
             </div> <!-- end of Nutrition section -->
 
             <div class="order section">
                 <div class="heading">
-                    <h2 class="title"></h2>
-                    <p class="description"></p>
+                    <h2 class="title">Order one or more</h2>
+                    <p class="description">Passion fruit is all you need</p>
                 </div>
 
             </div>
